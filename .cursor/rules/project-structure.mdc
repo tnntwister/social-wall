@@ -1,5 +1,53 @@
----
-description: 
-globs: 
----
- 
+# Project Structure Rules
+
+## Root Directory
+- `.cursor/` - Cursor rules and configuration
+- `public/` - Static assets
+- `src/` - Source code
+- Configuration files at root level
+
+## Source Directory (`src/`)
+
+### Components (`src/components/`)
+- Organized by feature or type
+- Common components in `common/`
+- Layout components in `layout/`
+- Each component in its own directory with:
+  - Main component file (`.jsx`)
+  - Associated styles if needed
+  - Tests (`.test.jsx`)
+
+### Assets (`src/assets/`)
+- Images, icons, fonts
+- Organized by type
+- Use descriptive names
+
+### Hooks (`src/hooks/`)
+- Custom React hooks
+- One hook per file
+- Prefix with `use`
+
+### Services (`src/services/`)
+- API calls
+- External services integration
+- Data fetching logic
+
+### Styles (`src/styles/`)
+- Global styles
+- Theme configurations
+- Tailwind custom styles
+
+### Utils (`src/utils/`)
+- Helper functions
+- Constants
+- Type definitions
+
+## Entry Points
+- `src/main.jsx` - Application entry
+- `src/App.jsx` - Root component
+- `src/index.css` - Global styles
+
+## Configuration Files
+- `vite.config.js` - Vite configuration
+- `tailwind.config.js` - Tailwind configuration
+- `postcss.config.js` - PostCSS configuration 
