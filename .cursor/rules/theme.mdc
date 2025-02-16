@@ -1,5 +1,18 @@
----
-description: 
-globs: 
----
- 
+# Theme Rules
+
+## Colors
+- Primary (Bluesky): #3B82F6
+- Secondary (Discord): #5865F2
+- Background: #F3F4F6
+- Text: #1F2937
+- Muted Text: #6B7280
+
+## Shadows
+- Default: sm
+- Hover: lg
+- Active: xl
+
+## Animations
+- Duration: 200ms
+- Timing: ease-in-out
+- Scale on hover: 1.02 

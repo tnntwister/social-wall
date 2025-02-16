@@ -1,5 +1,17 @@
----
-description: 
-globs: 
----
- 
+# Content Rules
+
+## Typography
+- Title: Large, bold
+- Username: Medium, semibold
+- Timestamp: Small, gray
+- Content: Regular, good line height
+
+## Spacing
+- Between cards: 1rem
+- Content padding: 1rem
+- Header spacing: 0.75rem
+
+## Interactions
+- Hover state: Slight elevation
+- Click state: Slight depression
+- Smooth transitions 

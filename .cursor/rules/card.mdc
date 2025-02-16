@@ -1,5 +1,22 @@
----
-description: 
-globs: 
----
- 
+# Card Rules
+
+## Base Card
+- Rounded corners (xl)
+- White background with slight transparency
+- Hover effect with slight elevation
+- Smooth transition
+- Left border accent based on platform
+
+## Platform Specific
+### Bluesky
+- Blue accent (#3B82F6)
+- Light blue gradient background
+
+### Discord
+- Purple accent (#5865F2)
+- Light gray gradient background
+
+## Layout
+- Padding: 1rem
+- Margin: 0.5rem
+- Grid layout: 1 column mobile, 2 columns tablet, 3 columns desktop 
