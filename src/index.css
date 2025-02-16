@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-gray-100 text-gray-800 font-sans;
+    }
+}
+
+@layer components {
+    .social-card {
+        @apply bg-white/95 rounded-xl shadow-sm p-4 
+               transition-all duration-200 ease-in-out 
+               hover:shadow-lg hover:scale-102 
+               cursor-pointer;
+    }
+    
+    .social-card-bluesky {
+        @apply border-l-4 border-[#3B82F6] 
+               bg-gradient-to-br from-blue-50 to-white;
+    }
+    
+    .social-card-discord {
+        @apply border-l-4 border-[#5865F2] 
+               bg-gradient-to-br from-gray-50 to-white;
+    }
+    
+    .card-title {
+        @apply text-2xl font-bold text-gray-800;
+    }
+    
+    .card-username {
+        @apply text-base font-semibold text-gray-700;
+    }
+    
+    .card-timestamp {
+        @apply text-sm text-gray-500;
+    }
+    
+    .card-content {
+        @apply text-base leading-relaxed text-gray-700 my-3;
+    }
+    
+    .card-grid {
+        @apply grid gap-4 p-4
+               grid-cols-1 
+               md:grid-cols-2 
+               lg:grid-cols-3;
+    }
+}

@@ -1,0 +1,27 @@
+# Naming Conventions
+
+## Files and Directories
+- Components: PascalCase (e.g., `SocialWall.jsx`)
+- Hooks: camelCase with 'use' prefix (e.g., `useAuth.js`)
+- Utils: camelCase (e.g., `formatDate.js`)
+- Test files: `.test.jsx` or `.spec.jsx`
+- Style files: Same name as component with `.css`
+
+## Components
+- React Components: PascalCase
+- Component Directories: Same as component name
+
+## Variables and Functions
+- Variables: camelCase
+- Constants: UPPER_SNAKE_CASE
+- Functions: camelCase
+- React Hooks: use prefix
+
+## CSS Classes
+- Tailwind utility classes
+- Custom classes: kebab-case
+- Component specific: ComponentName-element 
+description: 
+globs: 
+---
+ 
